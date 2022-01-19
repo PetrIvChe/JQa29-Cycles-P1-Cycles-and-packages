@@ -12,7 +12,8 @@ class SQRServiceTest {
             "first range, 100, 200, 5",
             "second range, 200, 300, 3",
             "third range, 500, 1000, 9",
-            "fourth range, 1000, 2500, 19"
+            "fourth range, 1000, 2500, 19",
+            "fives range, 100, 10000, 90"
     })
     void shouldReturnNumberOfSquaresInRange(String testName, int startOfRange, int endOfRange, int expected) {
         SQRService service = new SQRService();
